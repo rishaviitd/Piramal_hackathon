@@ -1,6 +1,6 @@
 <img src="piramal.svg" alt="Step 1" />
 
-## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data (Hackathon)</span>
+## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data (Piramal Hackathon)</span>
 **Project Overview:**
 
 As a leading finance firm, encountering data incompleteness is a common challenge for Piramal that impedes their ability to make conclusive decisions or predictions. One such scenario arises when determining the Rate of Interest (ROI) for an existing loan from a customer taken with an external Financial Institute. However, they do obtain other loan-related details for such tradelines by subscribing to bureaus such as CIBIL and Experian.
