@@ -5,13 +5,6 @@ As a leading finance firm, encountering data incompleteness is a common challeng
 
 The challenge at hand involves using this data to accurately compute or be closest to the actual Rate of Interest (ROI) across various types of loans. Participants are encouraged to leverage mathematical equations in solving this problem while maximizing the available data. The final solution should be robust enough to handle various loan types, including Housing Loan, Property Loan, Business Loan, and Personal Loan.'
 
-<img src="step-1.png" alt="Step 1" />
-<img src="step-2.png" alt="Step 1" />
-<img src="step-3.png" alt="Step 1" />
-<img src="challenges.png" align="right" alt="Step 1" />
-
-
-
 **Task:**
 
 We were expected to ideate on a scalable approach to the problem and to build a Machine Learning model, based on the data provided, that predicts the rate of interest(ROI) . 
@@ -32,6 +25,14 @@ There are multiple files provided.
 
 <li>There are other related files: train_all_loan.csv & test_all_loan.csv of train & test IDs respectively. These files contain customer’s complete credit history including other Live & Closed loans from the past. Participant can use this to extract more credit behavior of the customer and thereby in the model building part.</li>
 </ul>
+<img src="step-1.png" alt="Step 1" />
+<img src="step-2.png" alt="Step 1" />
+<img src="step-3.png" alt="Step 1" />
+<img src="challenges.png" align="right" alt="Step 1" />
+
+
+
+
 **Steps:**
 
 - <span style="color:#ff6600">**📅 Data Pre-processing and Handling Missing Values:**</span>
