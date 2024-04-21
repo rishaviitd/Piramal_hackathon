@@ -29,7 +29,7 @@ There are multiple files provided.
 <li>There were other related files: train_all_loan.csv & test_all_loan.csv of train & test IDs respectively. These files contain customer’s complete credit history including other Live & Closed loans from the past. Participant can use this to extract more credit behavior of the customer and thereby in the model building part.</li>
 </ul>
 
-**1.DATA PRE-PROCESSING AND HANDLING MISSING VALUES**
+**1. DATA PRE-PROCESSING AND HANDLING MISSING VALUES**
 <img src="step-1.png" alt="Step 1" />
 **2. FEATURE ENGINEERING AND FEATURE SELECTION**
 <img src="step-2.png" alt="Step 1" />
