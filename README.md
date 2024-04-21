@@ -2,9 +2,8 @@
 <img src="step-1.png" alt="Step 1" />
 <img src="step-2.png" alt="Step 1" />
 <img src="step-3.png" alt="Step 1" />
-<div style="text-align:center;">
-    <img src="challenges.png" alt="Step 1" />
-</div>
+<img src="challenges.png" align="right" alt="Step 1" />
+
 **Project Overview:**
 
 As a leading finance firm, encountering data incompleteness is a common challenge that impedes our ability to make conclusive decisions or predictions. One such scenario arises when determining the Rate of Interest (ROI) for an existing loan from a customer taken with an external Financial Institute. However, we do obtain other loan-related details for such tradelines by subscribing to bureaus such as CIBIL and Experian.
