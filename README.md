@@ -1,4 +1,5 @@
 ## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data</span>
+<img src="step-1.png" alt="Step 1" />
 
 **Project Overview:**
 
