@@ -29,6 +29,16 @@ There are multiple files provided.
 <li>There were other related files: train_all_loan.csv & test_all_loan.csv of train & test IDs respectively. These files contain customer’s complete credit history including other Live & Closed loans from the past. Participant can use this to extract more credit behavior of the customer and thereby in the model building part.</li>
 </ul>
 
+**MODELLING APPROACH**
+<ul>
+<li>EMI, Principal, intrest rate , and repayment Tenure can be easily related by this formula</li>
+<li>This makes them very important features for predicting the ROI, despite a large fraction of them being missing</li>
+<li>Tried estimating them using Predictive imputation techniques using the dataset where all the loans information was given.</li>
+<li>Using Exploratory Data analysis and Feature Engineering came up with important features enchancing the predictive power of the machine Learning Model.</li>
+<li>Used Tree based models that can capture non-linear realations between the dataset effectively like XGBoost, RandomForest and LGBM.</li>
+
+</ul>
+
 **1. DATA PRE-PROCESSING AND HANDLING MISSING VALUES**
 <img src="step-1.png" alt="Step 1" />
 **2. FEATURE ENGINEERING AND FEATURE SELECTION**
