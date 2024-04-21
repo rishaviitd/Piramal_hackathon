@@ -1,19 +1,37 @@
-## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data</span>
+## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data (Hackathon)</span>
+**Project Overview:**
+
+As a leading finance firm, encountering data incompleteness is a common challenge that impedes our ability to make conclusive decisions or predictions. One such scenario arises when determining the Rate of Interest (ROI) for an existing loan from a customer taken with an external Financial Institute. However, we do obtain other loan-related details for such tradelines by subscribing to bureaus such as CIBIL and Experian.
+
+The challenge at hand involves using this data to accurately compute or be closest to the actual Rate of Interest (ROI) across various types of loans. Participants are encouraged to leverage mathematical equations in solving this problem while maximizing the available data. The final solution should be robust enough to handle various loan types, including Housing Loan, Property Loan, Business Loan, and Personal Loan.'
+
 <img src="step-1.png" alt="Step 1" />
 <img src="step-2.png" alt="Step 1" />
 <img src="step-3.png" alt="Step 1" />
 <img src="challenges.png" align="right" alt="Step 1" />
 
-**Project Overview:**
 
-As a leading finance firm, encountering data incompleteness is a common challenge that impedes our ability to make conclusive decisions or predictions. One such scenario arises when determining the Rate of Interest (ROI) for an existing loan from a customer taken with an external Financial Institute. However, we do obtain other loan-related details for such tradelines by subscribing to bureaus such as CIBIL and Experian.
-
-The challenge at hand involves using this data to accurately compute or be closest to the actual Rate of Interest (ROI) across various types of loans. Participants are encouraged to leverage mathematical equations in solving this problem while maximizing the available data. The final solution should be robust enough to handle various loan types, including Housing Loan, Property Loan, Business Loan, and Personal Loan.
 
 **Task:**
 
-Participants are expected to ideate on a scalable approach to the problem & submit a document that briefly describes the solution. The document must include a flow diagram & a description of each component. Participants are also expected to build a Machine Learning model, based on the data provided, that predicts the rate of interest(ROI) . The ML model must take in data from all sources provided. Unavailability of data points over a subset of the sample should not pose any restriction.
+We were expected to ideate on a scalable approach to the problem and to build a Machine Learning model, based on the data provided, that predicts the rate of interest(ROI) . 
 
+**Dataset Details**
+train_main_loan.csv:  69958 x 24
+train_all_loan.csv: 1066009 x 19
+test_main_loan.csv: 29983 x 23
+test_all_loan.csv: 452990 x 19
+
+The data set consists of financial related data of a customer against a loan & also demographical data belonging to the same individual.
+
+There are multiple files provided.
+<ul>
+<li>train_main_loan.csv : This will have the main loan on which the participant needs to build the model using the info pertaining to that loan along with Date Of Birth, Gender, Occupation type</li>
+
+<li>test_main_loan.csv: Another file is provided with different set of IDs to validate your model. Once you are able to build model, then you are supposed to get predictions on this dataset using model fit from training dataset. This file would be split between PUBLIC and PRIVATE set on our side. Final evaluation would be done internally on PRIVATE dataset alone.
+
+<li>There are other related files: train_all_loan.csv & test_all_loan.csv of train & test IDs respectively. These files contain customer’s complete credit history including other Live & Closed loans from the past. Participant can use this to extract more credit behavior of the customer and thereby in the model building part.</li>
+</ul>
 **Steps:**
 
 - <span style="color:#ff6600">**📅 Data Pre-processing and Handling Missing Values:**</span>
