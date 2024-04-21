@@ -10,11 +10,12 @@ The challenge at hand involves using this data to accurately compute or be close
 We were expected to ideate on a scalable approach to the problem and to build a Machine Learning model, based on the data provided, that predicts the rate of interest(ROI) . 
 
 **Dataset Details**
-train_main_loan.csv:  69958 x 24
-train_all_loan.csv: 1066009 x 19
-test_main_loan.csv: 29983 x 23
-test_all_loan.csv: 452990 x 19
-
+<ul>
+<li>train_main_loan.csv:  69958 x 24</li>
+<li>train_all_loan.csv: 1066009 x 19</li>
+<li>test_main_loan.csv: 29983 x 23</li>
+<li>test_all_loan.csv: 452990 x 19</li>
+</ul>
 The data set consists of financial related data of a customer against a loan & also demographical data belonging to the same individual.
 
 There are multiple files provided.
