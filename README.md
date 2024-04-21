@@ -2,7 +2,7 @@
 <img src="step-1.png" alt="Step 1" />
 <img src="step-2.png" alt="Step 1" />
 <img src="step-3.png" alt="Step 1" />
-<img src="challenges.png" alt="Step 1" />
+<img src="challenges.png" align="center"  alt="Step 1" />
 
 **Project Overview:**
 
