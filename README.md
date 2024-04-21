@@ -1,5 +1,8 @@
-## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data</span>
+<img width="237" alt="image" src="https://github.com/rishaviitd/Piramal_hackathon/assets/103333413/0530fedc-726e-4cf9-a231-151c2c9df1fc">## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data</span>
 <img src="step-1.png" alt="Step 1" />
+<img src="step-2.png" alt="Step 1" />
+<img src="step-3.png" alt="Step 1" />
+<img src="challenges.png" alt="Step 1" />
 
 **Project Overview:**
 
