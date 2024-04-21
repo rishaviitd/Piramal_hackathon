@@ -28,10 +28,6 @@ There are multiple files provided.
 
 <li>There were other related files: train_all_loan.csv & test_all_loan.csv of train & test IDs respectively. These files contain customer’s complete credit history including other Live & Closed loans from the past. Participant can use this to extract more credit behavior of the customer and thereby in the model building part.</li>
 </ul>
-<img src="challenges.png" align="right" alt="Step 1" />
-
-
-
 
 **1.DATA PRE-PROCESSING AND HANDLING MISSING VALUES**
 <img src="step-1.png" alt="Step 1" />
@@ -40,24 +36,5 @@ There are multiple files provided.
 
 **3. MODEL TRAINING AND FINE-TUNING**
 <img src="step-3.png" alt="Step 1" />
-
-- <span style="color:#ff6600">**📅 Data Pre-processing and Handling Missing Values:**</span>
-    - Handle sparsity of the data using various imputation techniques.
-    - Utilize predictive imputation techniques for Repayment Tenure and EMI_amount.
-  
-- <span style="color:#ff6600">**🎯 Modelling Approach:**</span>
-    - Relate EMI, Principal, interest rate, and repayment Tenure using a formula, making them important features for predicting ROI.
-    - Utilize tree-based models such as XGBoost, RandomForest, and LGBM to capture nonlinear relationships effectively.
-    - Perform Exploratory Data Analysis and Feature Engineering to enhance the predictive power of the ML Model.
-
-- <span style="color:#ff6600">**⚙️ Integration with Systems:**</span>
-    - Address challenges to model deployment, including scalability, model monitoring, security, privacy, and version control.
-
-- <span style="color:#ff6600">**📈 Challenges:**</span>
-    - Strive for explainability and interpretability of the model despite using ensemble models like XGBoost and RandomForest, which inherently have low interpretability.
-    - Explore and implement explainability techniques tailored for ensemble models to gain clearer insights into model behavior.
-    - Implement adaptive learning mechanisms for continuous learning from new data and evolving patterns in interest rate dynamics.
-    - Identify additional predictive features and refine feature estimation through enhanced domain knowledge to address missing values and improve predictions.
-    - Enhance model performance and interpretability through continued exploration of alternative imputation techniques and feature engineering.
 
 By addressing these steps and challenges, the project aims to develop a robust Machine Learning model capable of accurately predicting the Rate of Interest (ROI) from bureau data, thereby aiding in informed decision-making in the finance industry.
