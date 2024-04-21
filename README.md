@@ -1,3 +1,5 @@
+<img src="piramal.svg" alt="Step 1" />
+
 ## <span style="color:#ff6600">Predicting Rate of Interest (ROI) from Bureau Data (Hackathon)</span>
 **Project Overview:**
 
